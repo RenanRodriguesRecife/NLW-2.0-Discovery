@@ -99,7 +99,8 @@
         grid-template-areas: 
         "proffy image image"
         "button button texting";
-        gap: 60px;
+        column-gap: 87px;
+        row-gap: 86px;
     }
     .logo-container{
         grid-area: proffy;
@@ -116,8 +117,11 @@
     .buttons-container{
         grid-area: button;
         justify-content: flex-start;
+        margin: 0;
     }
     .total-connections{
         grid-area: texting;
+        justify-content: end;
+        font-size: 1.2rem;
     }
 }
