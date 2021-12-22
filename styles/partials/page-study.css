@@ -260,4 +260,15 @@
         display: initial;
         margin-left: 16px;
     }
+
+    .teacher-item footer button{
+        width: 245px;
+        font-size: 16px;
+        justify-content: center;
+        font-weight: 600;
+    }
+
+    .teacher-item footer button img{
+        margin-right: 16px;
+    }
 }
