@@ -213,16 +213,18 @@
 
     .page-header .top-bar-container{
         max-width: 1100px;
+        
+        
+    }
+
+    .page-header .header-content{
+        max-width: 740px;
         margin: 0 auto;
         flex: 1 1;
         padding-bottom: 48px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-
-    .page-header .header-content{
-        max-width: 740px;
     }
 
     .page-header .header-content strong{
@@ -244,11 +246,11 @@
 
     #page-study main{
         padding: 32px 0;
-        max-width: 750px;
-        margin 0 auto;
+        max-width: 740px;
+        margin: 0 auto;
     }
     
-    #search-peachers .select-block{
+    #search-teachers .select-block{
         margin-bottom: 0;
     }
 
