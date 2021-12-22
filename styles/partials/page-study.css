@@ -213,6 +213,16 @@
 
     .page-header .top-bar-container{
         max-width: 1100px;
+        margin: 0 auto;
+        flex: 1 1;
+        padding-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .page-header .header-content{
+        max-width: 740px;
     }
 
     .teacher-item header,
@@ -225,6 +235,7 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 16px;
         position: absolute;
+        bottom: -28px;
     }
 
 }
