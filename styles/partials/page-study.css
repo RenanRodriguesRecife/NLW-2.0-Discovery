@@ -225,6 +225,10 @@
         max-width: 740px;
     }
 
+    .page-header .header-content strong{
+         max-width: 350px;
+    }
+
     .teacher-item header,
     .teacher-item footer{
         padding: 32px;
